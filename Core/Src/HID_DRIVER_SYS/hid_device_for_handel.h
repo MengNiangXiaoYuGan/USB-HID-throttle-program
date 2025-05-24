@@ -1,0 +1,17 @@
+#if !defined(HID_DEVICE_FOR_HANDELE_H)
+#define HID_DEVICE_FOR_HANDELE_H
+
+#define BORD_MAP F103_TERNEL
+
+#define BORD_ID 4
+
+#if BORD_MAP == F103_TERNEL
+#include "ternel-f103c8.h"
+#endif
+
+void HID_FLIGHT_SIMULATOR_SYS_START(void);
+void HID_FLIGHT_SIMULATOR_SYS_LOOP(void);
+
+
+
+#endif // HID_DEVICE_FOR_HANDELE_H
