@@ -62,11 +62,11 @@
   * @{
   */
 
-#define USBD_VID     1154
+#define USBD_VID     1153
 #define USBD_LANGID_STRING     1033
 #define USBD_MANUFACTURER_STRING     "STMicroelectronics"
-#define USBD_PID_FS     22353
-#define USBD_PRODUCT_STRING_FS     "HID_throttle"
+#define USBD_PID_FS     22352
+#define USBD_PRODUCT_STRING_FS     "HID_rudders"
 #define USBD_CONFIGURATION_STRING_FS     "Custom HID Config"
 #define USBD_INTERFACE_STRING_FS     "Custom HID Interface"
 
